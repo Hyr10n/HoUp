@@ -49,7 +49,7 @@ if (isset($_POST["nom"])) {
                                                          pattern="^[^ ]{8,}$"
                                                          placeholder="Votre mot de passe" required></label></div>
         <div><label for="birthdate">Année de Naissance : <input type="text" name="birthdate" id="birthdate"
-                                                 pattern="^[^;.,!?/\|<>*$%&£'€¤@~]*$"
+                                                                pattern="^[^ ]{4,4}$""
                                                  placeholder="ex : 1989" required></label></div>
         <div>
             <button type="submit">Enregistrer</button>

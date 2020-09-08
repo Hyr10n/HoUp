@@ -18,13 +18,13 @@ if (isset($_POST["email"])) {
 
 ?>
 
-<h3>Se connecter ici !</h3>
+<h3>Se connecter à HoUp</h3>
 <div class="zone">
 
     <form method="post">
 
         <label for="email">E-mail :</label>
-        <input placeholder="ex : moi@ifrocean.fr" id="email" type="email" name="email"
+        <input placeholder="ex : exmplre@houp.fr" id="email" type="email" name="email"
                onkeyup="this.value=this.value.toLowerCase()"
                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$" required>
 
@@ -38,5 +38,6 @@ if (isset($_POST["email"])) {
     </form>
 </div>
 <a href="P_Inscriptions.php">s'inscrire</a>
+<a href="P_UsersList.php">User List</a>
 <a href="../index.php">Retour</a>
 
