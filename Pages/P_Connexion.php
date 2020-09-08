@@ -1,10 +1,10 @@
 <?php
 session_start();
 $root = realpath($_SERVER["DOCUMENT_ROOT"]);
-require_once "../includes/DB/Functions.php";
+require_once "../DB/DB_infos.php";
 
 if (isset($_SESSION["personne"])) {
-    header('Location: /pages/home.php');
+    header('Location: P_Accueil.php');
 }
 
 
