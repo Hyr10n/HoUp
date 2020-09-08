@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8febdea-b257-4ee0-abeb-3a06ca1b6b87" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="a8febdea-b257-4ee0-abeb-3a06ca1b6b87" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,22 +26,16 @@
   </component>
   <component name="ProjectId" id="1hBYqLWaPDExOJjGShqWZsn01Uh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../defaultuser1" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../projet-vigneron-settouche-huteau" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -53,6 +49,8 @@
       <updated>1599486141468</updated>
       <workItem from="1599486142693" duration="3067000" />
       <workItem from="1599548729697" duration="916000" />
+      <workItem from="1599567782688" duration="4792000" />
+      <workItem from="1599575027767" duration="712000" />
     </task>
     <servers />
   </component>
@@ -71,5 +69,24 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="390" y="0" key="#PHP" timestamp="1599551017745">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="390" y="0" key="#PHP/0.0.1366.768@0.0.1366.768" timestamp="1599551017745" />
+    <state x="463" y="133" key="FileChooserDialogImpl" timestamp="1599575119602">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="133" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1599575119602" />
+    <state x="463" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1599567801695" />
+    <state x="184" y="26" key="SettingsEditor" timestamp="1599550997913">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="184" y="26" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1599550997913" />
+    <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599576640997">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1599576640997" />
   </component>
 </project>
