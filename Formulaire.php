@@ -122,7 +122,7 @@
 
     <br>
 
-    <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Type de chauffage d’eau ?</label>
+    <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Quelle est votre type de chauffage d’eau ?</label>
 
     <select class="custom-select my-1 mr-sm-2" id="r6"  name="r6">
         <option value="1">Chauffe eau solaire</option>

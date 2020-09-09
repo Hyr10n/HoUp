@@ -17,35 +17,35 @@
 <body>
 
 
-<table class="table-responsive">
+<table class="table table table-dark table-responsive-sm">
     <tr>
         <th>ID user</th>
         <th>Nom</th>
         <th>Prénom</th>
-        <th>Q1 en kWh/an</th>
-        <th>Q2</th>
-        <th>Q3 en m²</th>
-        <th>Other 3</th>
-        <th>Q4</th>
-        <th>Q5</th>
-        <th>Q6</th>
-        <th>Other 6</th>
-        <th>Q7</th>
-        <th>Other 7</th>
-        <th>Q8</th>
-        <th>Other 8</th>
-        <th>Q9</th>
-        <th>Q10</th>
-        <th>Other 10</th>
-        <th>Q11</th>
-        <th>Other 11</th>
-        <th>Q12</th>
-        <th>Other 12</th>
-        <th>Other 13</th>
-        <th>Q13</th>
-        <th>Other 14</th>
-        <th>Q14</th>
-        <th>Other 15</th>
+        <th>Quelle a été votre consommation electrique en 2019 en kWh/an?</th>
+        <th>Quelle es le nombre de personnes dans votre foyer ?    </th>
+        <th>Quelle est le type de votre habitation ?</th>
+        <th>Autres ou spécications </th>
+        <th>Quelle est la superficie de votre habitation en m² ?  </th>
+        <th>Quelle est le nombres de pièces de votre habitation ?    </th>
+        <th>Avec quelle matériau(x) votre maison est isolé ?</th>
+        <th>Autres ou spécications </th>
+        <th>Posséder vous un grenier ?     </th>
+        <th>Autres ou spécications </th>
+        <th>Posséder vous des combles ?</th>
+        <th>Autres ou spécications </th>
+        <th>Combien de portes d’entrer ou de fenêtres possédez vous ?</th>
+        <th>Toutes vos fenêtres ont des doubles vitrages ?</th>
+        <th> Autres ou spécications</th>
+        <th>Quelle est votre type de chauffage d’eau ?</th>
+        <th> Autres ou spécications</th>
+        <th> Possédez-vous un système de climatisation ?</th>
+        <th>Autres ou spécications</th>
+        <th>Quelle est l’année de construction ? </th>
+        <th>Quelle est votre type de chauffage ?</th>
+        <th>Autres ou spécications</th>
+        <th> Votre installation électrique comporte t’elle une de ses installations ?</th>
+        <th> Autres ou spécications</th>
 
     </tr>
 
