@@ -10,3 +10,27 @@ body{ margin:0; pading: 0}
     alignment: center;
     margin: auto;
 }
+
+
+.header{
+    display: flex;
+    height: 25vh;
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    background-color:rgb(220,220,220) ;
+}
+
+.FlexTitre{
+    display: flex;
+    height: 10vh;
+    width: 30vw;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+
+    background-color:rgb(245, 245, 245);
+}
