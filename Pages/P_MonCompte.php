@@ -19,8 +19,6 @@ $user_password = $_SESSION["personne"]["Password"];
 $user_birthdate = $_SESSION["personne"]["Birthdate"];
 $user_admin = $_SESSION["personne"]["Admin"];
 
-var_dump($_SESSION);
-
 if (isset($_POST["userDeleteAccount"])) {
     userDeleteAccount($user_id);
     session_destroy();
@@ -35,6 +33,9 @@ if (isset($_POST["userDeleteAccount"])) {
 
     <label> Votre nom <input type="submit" value="<?php echo $user_name ?>"></label>
     <label> Votre prénom <input type="submit" value="<?php echo $user_firstname ?>"></label>
+    <label> Votre adresse <input type="submit" value="<?php echo $user_address ?>"></label>
+    <label> Votre ville <input type="submit" value="<?php echo $user_city ?>"></label>
+    <label> Votre téléphone <input type="submit" value="<?php echo $user_phone ?>"></label>
     <label> Votre email <input type="submit" value="<?php echo $user_mail ?>"></label>
     <label> Votre mot de passe <input type="submit" value="<?php echo $user_password ?>"></label>
 
