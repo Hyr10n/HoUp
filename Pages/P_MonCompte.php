@@ -19,6 +19,8 @@ $user_password = $_SESSION["personne"]["Password"];
 $user_birthdate = $_SESSION["personne"]["Birthdate"];
 $user_admin = $_SESSION["personne"]["Admin"];
 
+var_dump($_SESSION);
+
 if (isset($_POST["userDeleteAccount"])) {
     userDeleteAccount($user_id);
     session_destroy();
