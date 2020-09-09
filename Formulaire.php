@@ -3,20 +3,20 @@
 <div class="tab">
 <form class="form" method="post" action="action/ActionFormulaire1.php">
     <div class="form-group">
-        <label for="formGroupExampleInput">Id ? </label>
+        <label for="formGroupExampleInput"><h5>Id ?</h5> </label>
         <input type="text" class="form-control" id="id-user" name="id_user" placeholder="en kWh/an" required>
     </div>
     <div class="form-group">
-        <label for="formGroupExampleInput">Quelle a été votre consommation electrique en 2019 ? </label>
+        <label for="formGroupExampleInput"><h5>Quelle a été votre consommation electrique en 2019 ?</h5> </label>
         <input type="text" class="form-control" id="other1" name="other1" placeholder="en kWh/an" required>
     </div>
     <br>
     <div class="form-group">
-        <label for="formGroupExampleInput">Quelle es le nombre de personnes dans votre foyer ? </label>
+        <label for="formGroupExampleInput"><h5>Quelle es le nombre de personnes dans votre foyer ?</h5> </label>
         <input type="text" class="form-control" id="other2" name="other2" required >
     </div>
     <br>
-    <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Quelle est le type de votre habitation ?</label>
+    <label class="my-1 mr-2" for="inlineFormCustomSelectPref"><h5>Quelle est le type de votre habitation ?</h5></label>
 
     <select class="custom-select my-1 mr-sm-2" id="r1"  name="r1" required>
         <option value="1">Maison</option>
@@ -25,24 +25,24 @@
 
     </select>
     <div class="form-group">
-        <label for="formGroupExampleInput">Autres ou spécications </label>
+        <label for="formGroupExampleInput"><div class="bbb">Autres ou spécications</div> </label>
         <input type="text" class="form-control" id="other3"  name="other3" placeholder="Autres (et) ou spécication(s)">
     </div>
 
     <br>
 
     <div class="form-group">
-        <label for="formGroupExampleInput">Quelle est la superficie de votre habitation ? </label>
+        <label for="formGroupExampleInput"><h5>Quelle est la superficie de votre habitation ?</h5> </label>
         <input type="text" class="form-control" id="other4"  name="other4" placeholder="superficie en m²" required>
     </div>
 
     <br>
     <div class="form-group">
-        <label for="formGroupExampleInput">Quelle le nombres de pièces de votre habitation ? </label>
+        <label for="formGroupExampleInput"><h5>Quelle le nombres de pièces de votre habitation ?</h5> </label>
         <input type="text" class="form-control" id="other5"  name="other5" placeholder="nombre de pièce(s)" required>
     </div>
     <br>
-    <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Avec quelle matériau(x) votre maison est isolé ?</label>
+    <label class="my-1 mr-2" for="inlineFormCustomSelectPref"><h5>Avec quelle matériau(x) votre maison est isolé ?</h5></label>
 
     <select class="custom-select my-1 mr-sm-2" id="r2"  name="r2" required>
         <option value="1">Laine de verre</option>
@@ -51,12 +51,12 @@
 
     </select>
     <div class="form-group">
-        <label for="formGroupExampleInput">Autres ou spécications </label>
+        <label for="formGroupExampleInput"><div class="bbb">Autres ou spécications </div></label>
         <input type="text" class="form-control" id="other6"  name="other6" placeholder="Autres (et) ou spécication(s)">
     </div>
     <br>
 
-    <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Posséder vous un grenier ?</label>
+    <label class="my-1 mr-2" for="inlineFormCustomSelectPref"><h5>Posséder vous un grenier ?</h5></label>
 
     <select class="custom-select my-1 mr-sm-2" id="r3"  name="r3" required>
         <option value="1">Oui et il est isolé</option>
@@ -65,12 +65,12 @@
 
     </select>
     <div class="form-group">
-        <label for="formGroupExampleInput">Autres ou spécications </label>
+        <label for="formGroupExampleInput"><div class="bbb">Autres ou spécications</div> </label>
         <input type="text" class="form-control" id="other7"  name="other7" placeholder="Autres (et) ou spécication(s)">
     </div>
 
     <br>
-    <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Posséder vous des combles ?</label>
+    <label class="my-1 mr-2" for="inlineFormCustomSelectPref"><h5>Posséder vous des combles ?</h5></label>
 
     <select class="custom-select my-1 mr-sm-2" id="r4"  name="r4" required>
         <option value="1">Oui et elles sont isolé </option>
@@ -79,19 +79,19 @@
 
     </select>
     <div class="form-group">
-        <label for="formGroupExampleInput">Autres ou spécications  </label>
+        <label for="formGroupExampleInput"><div class="bbb">Autres ou spécications </div> </label>
         <input type="text" class="form-control" id="other8"  name="other8" placeholder="Autres (et) ou spécication(s)" >
     </div>
 
     <br>
 
     <div class="form-group">
-        <label for="formGroupExampleInput">Combien de portes d’entrer ou de fenêtres possédez vous ? </label>
+        <label for="formGroupExampleInput"><h5>Combien de portes d’entrer ou de fenêtres possédez vous ?</h5> </label>
         <input type="text" class="form-control" id="other9"  name="other9" placeholder="nombre de porte et fenetres " required>
     </div>
 
     <br>
-    <label class="my-1 mr-2" for="inlineFormCustomSelectPref"> Toutes vos fenêtres ont des doubles vitrages ?</label>
+    <label class="my-1 mr-2" for="inlineFormCustomSelectPref"><h5> Toutes vos fenêtres ont des doubles vitrages ?</h5></label>
 
     <select class="custom-select my-1 mr-sm-2" id="r5"   name="r5"required>
         <option value="1">Oui</option>
@@ -100,13 +100,13 @@
 
     </select>
     <div class="form-group">
-        <label for="formGroupExampleInput">Autres ou spécications </label>
+        <label for="formGroupExampleInput"><div class="bbb">Autres ou spécications </div></label>
         <input type="text" class="form-control" id="other10"  name="other10" placeholder="Autres (et) ou spécication(s)">
     </div>
 
     <br>
 
-    <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Quelle est votre type de chauffage d’eau ?</label>
+    <label class="my-1 mr-2" for="inlineFormCustomSelectPref"><h5>Quelle est votre type de chauffage d’eau ?</h5></label>
 
     <select class="custom-select my-1 mr-sm-2" id="r6"  name="r6">
         <option value="1">Chauffe eau solaire</option>
@@ -115,7 +115,7 @@
 
     </select>
     <div class="form-group">
-        <label for="formGroupExampleInput">Autres ou spécications </label>
+        <label for="formGroupExampleInput"><div class="bbb">Autres ou spécications </div></label>
         <input type="text" class="form-control" id="other11"  name="other11" placeholder="Autres (et) ou spécication(s)">
     </div>
 
@@ -123,7 +123,7 @@
 
 
 
-    <label class="my-1 mr-2" for="inlineFormCustomSelectPref"> Possédez-vous un système de climatisation ?</label>
+    <label class="my-1 mr-2" for="inlineFormCustomSelectPref"><h5> Possédez-vous un système de climatisation ?</h5></label>
 
     <select class="custom-select my-1 mr-sm-2" id="r7"  name="r7">
         <option value="1">Oui</option>
@@ -131,14 +131,14 @@
 
     </select>
     <div class="form-group">
-        <label for="formGroupExampleInput">Autres ou spécications </label>
+        <label for="formGroupExampleInput"><div class="bbb">Autres ou spécications </div></label>
         <input type="text" class="form-control" id="other12"  name="other12" placeholder="Autres (et) ou spécication(s)">
     </div>
 
     <br>
 
     <div class="form-group">
-        <label for="formGroupExampleInput">Quelle est l’année de construction ? </label>
+        <label for="formGroupExampleInput"><h5>Quelle est l’année de construction ? </h5></label>
         <input type="text" class="form-control" id="other 13"  name="other13" required >
     </div>
 
@@ -146,7 +146,7 @@
 
 
 
-    <label class="my-1 mr-2" for="inlineFormCustomSelectPref"> Quelle est votre type de chauffage ? </label>
+    <label class="my-1 mr-2" for="inlineFormCustomSelectPref"><h5>Quelle est votre type de chauffage ? </h5> </label>
 
     <select class="custom-select my-1 mr-sm-2" id="r8"  name="r8" required>
         <option value="1">Chauffage Electrique  </option>
@@ -157,12 +157,12 @@
         <option value="3">Autre spécifier le chauffage  </option>
     </select>
     <div class="form-group">
-        <label for="formGroupExampleInput">Autres ou spécications </label>
+        <label for="formGroupExampleInput"><div class="bbb">Autres ou spécications </div></label>
         <input type="text" class="form-control" id="other14"  name="other14" placeholder="Autres (et) ou spécication(s)">
     </div>
 
     <br>
-    <label class="my-1 mr-2" for="inlineFormCustomSelectPref"> Votre installation électrique comporte t’elle une de ses installations ? </label>
+    <label class="my-1 mr-2" for="inlineFormCustomSelectPref"> <h5>Votre installation électrique comporte t’elle une de ses installations ?</h5> </label>
 
     <select class="custom-select my-1 mr-sm-2" id="r9"  name="r9">
         <option value="1">Photovoltaïque  </option>
@@ -171,7 +171,7 @@
         <option value="4">Autre</option>
     </select>
     <div class="form-group">
-        <label for="formGroupExampleInput">Autres ou spécications </label>
+        <label for="formGroupExampleInput"><div class="bbb">Autres ou spécications </div></label>
         <input type="text" class="form-control" id="other15"  name="other15" placeholder="Autres (et) ou spécication(s)">
     </div>
 

@@ -1,6 +1,10 @@
-body{ margin:0; pading: 0}
-
+body{ margin:0; pading: 0;background-image: url("https://image.freepik.com/vecteurs-libre/ecologie-concept-environnemental-symbole-terre-feuilles-vertes-autour-villes-aident-monde-idees-ecologiques_29120-92.jpg");}
+h5 {color:  black}
+.bbb{
+    color: black;
+}
 .tab {
+
     display: flex;
     width: 80vw;
     box-sizing: border-box;
@@ -9,6 +13,9 @@ body{ margin:0; pading: 0}
     text-align: center;
     alignment: center;
     margin: auto;
+    margin-top: 100px;
+background-color: rgba(128,128,128,0.85);
+
 }
 
 
