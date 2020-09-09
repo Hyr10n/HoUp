@@ -1,6 +1,11 @@
 <?php
+session_start();
 $root = realpath($_SERVER["DOCUMENT_ROOT"]);
 require_once "../DB/Functions.php";
+
+if (isset($_SESSION["personne"])) {
+    header('Location: P_Accueil.php');
+}
 
 
 if (isset($_POST["nom"])) {

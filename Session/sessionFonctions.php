@@ -15,13 +15,13 @@ function Security($P = "C")
     } else {
         if ($P == "A") {
             // Admin
-            if ($_SESSION["personne"]["admin"] != True) {
+            if ($_SESSION["personne"]["Admin"] != True) {
                 header("location: ../Pages/P_Accueil.php");
             }
 
         } elseif ($P == "B") {
 
-            if ($_SESSION["personne"]["admin"] != False) {
+            if ($_SESSION["personne"]["Admin"] != False) {
                 header("location: ../Pages/P_Accueil.php");
             }
 
