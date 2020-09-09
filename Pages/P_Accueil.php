@@ -14,6 +14,7 @@ if (isset($_POST["userDeconnection"])) {
 <a href="P_Inscriptions.php">Inscription</a>
 <a href="P_UsersList.php">Users</a>
 <a href="P_Connexion.php">Connexion</a>
+<a href="P_MonCompte.php">Mon Compte</a>
 <a href="">Formulaire</a>
 
 <form action="" method="post">

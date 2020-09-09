@@ -7,12 +7,11 @@ if (isset($_SESSION["personne"])) {
     header('Location: P_Accueil.php');
 }
 
-
 if (isset($_POST["mail"])) {
 
     $mail = filter_input(INPUT_POST, "mail");
     $password = filter_input(INPUT_POST, "password");
-    var_dump($mail, $password);
+
     userLogin($mail, $password);
 }
 

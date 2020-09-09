@@ -33,15 +33,15 @@ function userLogin($mail, $password)
             $personne["auth"] = true;
             $personne["Name"] = $r["Name"];
             $personne["FirstName"] = $r["FirstName"];
+            $personne["Id"] = $r["Id"];
             $personne["Address"] = $r["Address"];
             $personne["City"] = $r["City"];
             $personne["Mail"] = $r["Mail"];
             $personne["Phone"] = $r["Phone"];
             $personne["Password"] = $r["Password"];
-            $personne["Birtdate"] = $r["Birthdate"];
+            $personne["Birthdate"] = $r["Birthdate"];
             $personne["Admin"] = $r["Admin"];
             $_SESSION["personne"] = $personne;
-
             header('Location: ../Pages/P_UsersList.php');
 
         }
@@ -57,4 +57,12 @@ function userList()
     $query->execute();
     $row = $query->fetchAll();
     return $row;
+}
+
+
+function userDeleteAccount($id)
+{
+    global $pdo;
+    $rq = $pdo->prepare("DELETE FROM `users` WHERE Id=:Id ");
+    $rq->execute(['Id' => $id]);
 }
