@@ -2,4 +2,4 @@
 
 include "sessionFonctions.php";
 Logout();
-header('Location: /pages/formConnexion.php');
+header('Location: ../Pages/P_Connexion.php');

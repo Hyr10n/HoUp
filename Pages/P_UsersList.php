@@ -4,7 +4,7 @@ require_once "../DB/Functions.php";
 
 session_start();
 include_once "../Session/sessionFonctions.php";
-//Security("A");
+Security("A");
 
 ?>
 

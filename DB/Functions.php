@@ -26,16 +26,20 @@ function userLogin($mail, $password)
         msg("Wrong email or password");
     }
     foreach ($row as $r) {
-        if ($r["email"] == $mail AND $r["password"] == $password) {
-            /*Do everything as connected*/
+        var_dump($r);
+        if ($r["Mail"] == $mail AND $r["Password"] == $password) {
             session_start();
             $personne = [];
             $personne["auth"] = true;
-            $personne["id"] = $r["id"];
-            $personne["nom"] = $r["nom"];
-            $personne["prenom"] = $r["prenom"];
-            $personne["email"] = $r["email"];
-            $personne["password"] = $r["password"];
+            $personne["Name"] = $r["Name"];
+            $personne["FirstName"] = $r["FirstName"];
+            $personne["Address"] = $r["Address"];
+            $personne["City"] = $r["City"];
+            $personne["Mail"] = $r["Mail"];
+            $personne["Phone"] = $r["Phone"];
+            $personne["Password"] = $r["Password"];
+            $personne["Birtdate"] = $r["Birthdate"];
+            $personne["Admin"] = $r["Admin"];
             $_SESSION["personne"] = $personne;
 
             header('Location: P_UsersList.php');

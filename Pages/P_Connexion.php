@@ -1,19 +1,19 @@
 <?php
 session_start();
 $root = realpath($_SERVER["DOCUMENT_ROOT"]);
-require_once "../DB/DB_infos.php";
+require_once "../DB/Functions.php";
 
-if (isset($_SESSION["personne"])) {
+/*if (isset($_SESSION["personne"])) {
     header('Location: P_Accueil.php');
-}
+}*/
 
 
-if (isset($_POST["email"])) {
+if (isset($_POST["mail"])) {
 
-    $email = filter_input(INPUT_POST, "email");
+    $mail = filter_input(INPUT_POST, "mail");
     $password = filter_input(INPUT_POST, "password");
-
-    userLogin($email, $password);
+    var_dump($mail, $password);
+    userLogin($mail, $password);
 }
 
 ?>
@@ -23,8 +23,8 @@ if (isset($_POST["email"])) {
 
     <form method="post">
 
-        <label for="email">E-mail :</label>
-        <input placeholder="ex : exmplre@houp.fr" id="email" type="email" name="email"
+        <label for="mail">E-mail :</label>
+        <input placeholder="ex : exmplre@houp.fr" id="mail" type="mail" name="mail"
                onkeyup="this.value=this.value.toLowerCase()"
                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$" required>
 
