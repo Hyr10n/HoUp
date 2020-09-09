@@ -100,7 +100,7 @@
 
     </select>
     <div class="form-group">
-        <label for="formGroupExampleInput"><div class="bbb">Autres ou spécications </div></label>
+        <label for="formGroupExampleInput"><div class="bbb">Autres ou spécications k</label>
         <input type="text" class="form-control" id="other10"  name="other10" placeholder="Autres (et) ou spécication(s)">
     </div>
 
