@@ -41,3 +41,33 @@ background-color: rgba(128,128,128,0.85);
 
     background-color:rgb(245, 245, 245);
 }
+
+.consommation{
+    display: flex;
+    height: 25vh;
+    width: 30vw;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    background-color:white ;
+}
+
+.tab1{
+    display: flex;
+    height: 25vh;
+    width: 30vw;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.tab2{
+    display: flex;
+    height: 25vh;
+    width: 30vw;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+
+}
