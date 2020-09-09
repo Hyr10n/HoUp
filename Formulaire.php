@@ -75,8 +75,8 @@
     <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Posséder vous un grenier ?</label>
 
     <select class="custom-select my-1 mr-sm-2" id="r3"  name="r3" required>
-        <option value="1">Oui et il est isoler</option>
-        <option value="2">Oui mais il n'est pas isoler</option>
+        <option value="1">Oui et il est isolé</option>
+        <option value="2">Oui mais il n'est pas isolé</option>
         <option value="3">Non</option>
 
     </select>

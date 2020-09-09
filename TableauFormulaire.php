@@ -22,9 +22,9 @@
         <th>ID user</th>
         <th>Nom</th>
         <th>Prénom</th>
-        <th>Q1</th>
+        <th>Q1 en kWh/an</th>
         <th>Q2</th>
-        <th>Q3</th>
+        <th>Q3 en m²</th>
         <th>Other 3</th>
         <th>Q4</th>
         <th>Q5</th>
@@ -66,7 +66,7 @@
             <td><?php echo $ligne["Id"] ?></td>
             <td><?php echo $ligne["Name"] ?></td>
             <td><?php echo $ligne["FirstName"] ?></td>
-            <td><?php echo $ligne["other1"] ?></td>
+            <td><?php echo $ligne["other1"]  ?> </td>
             <td><?php echo $ligne["other2"] ?></td>
 
             <td><?php switch($ligne["r1"]){
@@ -111,7 +111,11 @@
                         break;
                     case 2 :
                         echo "Non";
-                        break; ?></td>
+                        break; }?> </td>
+
+
+
+
             <td><?php echo $ligne["other8"] ?></td>
             <td><?php echo $ligne["other9"] ?></td>
             <td><?php switch($ligne["r5"]){
@@ -123,7 +127,7 @@
                     break;
                 case 2 :
                 echo "Quelques une ";
-                break; ?></td>
+                break; }?></td>
             <td><?php echo $ligne["other10"] ?></td>
             <td><?php switch($ligne["r6"]){
                 case 0 :
@@ -134,7 +138,7 @@
                     break;
                 case 2 :
                 echo "Autre ";
-                break; ?></td>
+                break; }?></td>
             <td><?php echo $ligne["other11"] ?></td>
             <td><?php switch($ligne["r7"]){
                 case 0 :
@@ -142,7 +146,7 @@
                     break;
                 case 1 :
                     echo "Non";
-                    break;
+                    break;}
                  ?> </td>
             <td><?php echo $ligne["other12"] ?></td>
             <td><?php echo $ligne["other13"] ?></td>
@@ -163,22 +167,21 @@
                 echo "Pompe a chaleur ";
                 case 5 :
                 echo "Autre specifier le chauffage ";
-                break; ?>
-                break;
-                ?>
+                break; }?>
+
             </td>
             <td><?php echo $ligne["other14"] ?></td>
-            <td><?php switch($ligne["r9"]){
-                case 0 :
-                    echo "Photocoltaique";
-                    break;
-                case 1 :
-                    echo "Aerovoltaique";
-                    break;
-                case 2 :
-                echo "Autre ";
-                break;
-                ?></td>
+            <td><?php switch($ligne["r9"]) {
+                    case 0 :
+                        echo "Photovoltaique";
+                        break;
+                    case 1 :
+                        echo "Aerovoltaique";
+                        break;
+                    case 2 :
+                        echo "Autre ";
+                        break;
+                }?></td>
             <td><?php echo $ligne["other15"] ?></td>
 
 
