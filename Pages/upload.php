@@ -7,8 +7,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         $filename = $_FILES["rapport"]["name"];
         $filetype = $_FILES["rapport"]["type"];
         $filesize = $_FILES["rapport"]["size"];
-        var_dump($allowed); ?><br><?php
-        var_dump($filetype); ?><br><?php
+        
         // Vérifie l'extension du fichier
         $ext = pathinfo($filename, PATHINFO_EXTENSION);
         if(!array_key_exists($ext, $allowed)) die("Erreur : Veuillez sélectionner un format de fichier valide.");
