@@ -1,0 +1,12 @@
+body{ margin:0; pading: 0}
+
+.tab {
+    display: flex;
+    width: 80vw;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    alignment: center;
+    margin: auto;
+}
