@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8febdea-b257-4ee0-abeb-3a06ca1b6b87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/P_Compteur.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/P_Rapport.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/upload.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +39,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../projet-vigneron-settouche-huteau" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\PHP\houp" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -51,6 +60,8 @@
       <workItem from="1599548729697" duration="916000" />
       <workItem from="1599567782688" duration="4792000" />
       <workItem from="1599575027767" duration="712000" />
+      <workItem from="1599635649499" duration="1162000" />
+      <workItem from="1599636837130" duration="4292000" />
     </task>
     <servers />
   </component>
@@ -75,18 +86,31 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="390" y="0" key="#PHP/0.0.1366.768@0.0.1366.768" timestamp="1599551017745" />
+    <state x="363" y="105" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1599636728358">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="363" y="105" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.738@0.0.1366.738" timestamp="1599636728358" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1599576681120">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1599576681120" />
     <state x="463" y="133" key="FileChooserDialogImpl" timestamp="1599575119602">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="133" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1599575119602" />
     <state x="463" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1599567801695" />
-    <state x="184" y="26" key="SettingsEditor" timestamp="1599550997913">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="184" y="26" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1599550997913" />
-    <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599576640997">
+    <state x="184" y="23" key="SettingsEditor" timestamp="1599636870102">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1599576640997" />
+    <state x="184" y="23" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1599636870102" />
+    <state x="184" y="26" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1599550997913" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1599576687721">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1599576687721" />
+    <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599642184274">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1599642184274" />
   </component>
 </project>
