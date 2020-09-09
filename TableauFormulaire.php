@@ -2,7 +2,7 @@
 
 
 
-<table class="table table table-dark table-responsive-sm">
+<table class="table table table-dark table-responsive">
     <tr>
         <th>ID user</th>
         <th>Nom</th>
