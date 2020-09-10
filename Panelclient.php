@@ -1,4 +1,7 @@
-<?php include ("header.php") ?>
+<?php include ("header.php");
+session_start();
+$user_Id=$_SESSION ["personne"]["Id"]
+?>
 
 <h1>Panel client</h1>
 <br>
@@ -8,7 +11,7 @@
 
     require "Config.php";
     $db= new PDO("mysql:host=".config::SERVEUR.";dbname=".config::BASEDEDONNEES,Config::UTILISATEUR, Config::MOTDEPASSE);
-    $r=$db-> prepare("SELECT consommation FROM users ");
+    $r=$db-> prepare("SELECT consommation FROM users where Id='.$user_Id.'");
 
 
     $r->execute();
@@ -17,7 +20,7 @@
 
     foreach ($resultats as $ligne) {
         ?>
-        <?php echo $ligne["Id"] ; }
+        <?php echo $ligne["consommation"] ; }
 
         ?>
 
