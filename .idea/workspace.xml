@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b75267bc-6017-4d8c-9632-21c5aae64432" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DB/actionFormulaireAdmin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DB/Functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/DB/Functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Formulaireadmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Formulaireadmin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/P_Accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/P_Accueil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Panelclient.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Panelclient.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/TableauFormulaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/TableauFormulaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/header.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,11 +36,12 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\HoUp\Rapport\uiopuiop" />
+      <recent name="C:\Users\gritv\Documents\www\HoUp\Pages" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp\www\HoUp\Session" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\gritv\Documents\www\HoUp\Pages" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -61,7 +68,7 @@
       <updated>1599551765624</updated>
       <workItem from="1599551766735" duration="14336000" />
       <workItem from="1599635964844" duration="16441000" />
-      <workItem from="1599722074547" duration="13364000" />
+      <workItem from="1599722074547" duration="17516000" />
     </task>
     <servers />
   </component>

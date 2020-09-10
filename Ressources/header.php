@@ -32,6 +32,8 @@
             <a class="nav-item nav-link" href="../Pages/P_MonCompte.php">Mon Compte</a>
             <a class="nav-item nav-link" href="../Pages/Formulaire.php">Formulaire</a>
             <a class="nav-item nav-link" href="../Pages/TableauFormulaire.php">Tableau Formulaire</a>
+            <a class="nav-item nav-link" href="../Pages/Panelclient.php">Panel Client</a>
+            <a class="nav-item nav-link" href="../Pages/Formulaireadmin.php">Appareil</a>
 
         </div>
     </div>

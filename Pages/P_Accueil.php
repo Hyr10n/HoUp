@@ -17,7 +17,7 @@ if (isset($_POST["userDeconnection"])) {
 <form action="" method="post">
     <a type="button" class="btn btn-outline-success" href="P_Inscriptions.php">Inscription</a>
     <a type="button" class="btn btn-outline-success" href="P_Connexion.php">Connexion</a>
-    <a type="button" class="btn btn-outline-success" href="">Formulaire</a>
+    <a type="button" class="btn btn-outline-success" href="Formulaire.php">Formulaire</a>
     <button class="btn btn-outline-primary" type="submit" id="Id" name="userDeconnection">Deconnection</button>
 </form>
 

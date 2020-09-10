@@ -1,6 +1,12 @@
-<?php include ("../Ressources/header.php");
+<?php
+include ("../Ressources/header.php");
+include  "../Session/sessionFonctions.php";
+include "../DB/Functions.php";
 session_start();
-$user_Id=$_SESSION ["personne"]["Id"]
+
+$user_Id = $_SESSION["personne"]["Id"];
+$user_nomDossier = $_SESSION["personne"]["nomDossier"];
+Security("C");
 ?>
 
 <h1>Panel client</h1>
@@ -9,11 +15,13 @@ $user_Id=$_SESSION ["personne"]["Id"]
 <div class="consommation">
     <?php
 
-    global $pdo;
-    $r=$pdo-> prepare("SELECT consommation FROM users where Id='.$user_Id'");
+    require "../DB/Config.php";
+    $db= new PDO("mysql:host=".config::SERVEUR.";dbname=".config::BASEDEDONNEES,Config::UTILISATEUR, Config::MOTDEPASSE);
+    $r=$db-> prepare("SELECT consommation FROM users where Id='.$user_Id'");
 
 
     $r->execute();
+
 
     $resultats=$r->fetchAll();
 
@@ -32,9 +40,9 @@ $user_Id=$_SESSION ["personne"]["Id"]
     <table class="table table table-dark table-responsive">
         <tr>
             <th>Document importé </th>
-            <th>Date</th>
         </tr>
 
+        <?php listing($user_nomDossier); ?>
 
     </table>
 </div>
@@ -52,12 +60,12 @@ $user_Id=$_SESSION ["personne"]["Id"]
             <th>Donnée</th>
         </tr>
         <?php
+        //require "../DB/Config.php";
+        $db= new PDO("mysql:host=".config::SERVEUR.";dbname=".config::BASEDEDONNEES,Config::UTILISATEUR, Config::MOTDEPASSE);
+        $r=$db-> prepare("SELECT nom, prix,role FROM appareilnomade where Id='.$user_Id.'");
 
-        global $pdo;
-        $rpd=$pdo-> prepare("SELECT nom, prix, donne,role FROM appareilnomade where Id='.$user_Id.'");
 
-
-        $rpd->execute();
+        $r->execute();
 
         $resultats=$r->fetchAll();
 
@@ -67,7 +75,6 @@ $user_Id=$_SESSION ["personne"]["Id"]
             <td><?php echo $ligne["nom"] ?></td>
             <td><?php echo $ligne["prix"] ?></td>
             <td><?php echo $ligne["role"] ?></td>
-            <td><?php echo $ligne["donne"] ?></td>
             <?php } ?>
     </table>
 </div>
