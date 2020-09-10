@@ -8,12 +8,21 @@ $pdo = new PDO(DB_INFOS::servername, DB_INFOS::username, DB_INFOS::password, [
 
 function userInscription($nom, $prenom, $address, $ville, $email, $tel, $password, $birthdate)
 {
+    /*$nomDossier = "$nom$prenom";
+    if (is_dir("../Rapport/$nomDossier")) {
+        $x = 0;
+        while(is_dir("../Rapport/$nomDossier") == true){
+            $x++;
+            $nomDossier = "$nom$prenom$x";
+        }
+    }
+    mkdir("../Rapport/$nomDossier");*/
 
     global $pdo;
-    $query = $pdo->prepare("INSERT INTO `users`(`Name`, `FirstName`, `Id`, `Address`, `City`, `Mail`, `Phone`, `Password`, `Birthdate`, `Admin`) VALUES (:Name, :FirstName, NULL, :Address, :City, :Mail, :Phone, :Password, :Birthdate, NULL )");
+    $query = $pdo->prepare("INSERT INTO `users`(`Name`, `FirstName`, `Id`, `Address`, `City`, `Mail`, `Phone`, `Password`, `Birthdate`, `Admin`, `Consommation`, `nomDossier`) VALUES (:Name, :FirstName, NULL, :Address, :City, :Mail, :Phone, :Password, :Birthdate, NULL, NULL, NULL)");
     $query->execute(['Name' => $nom, 'FirstName' => $prenom, 'Address' => $address, 'City' => $ville, 'Mail' => $email, 'Phone' => $tel, 'Password' => $password, 'Birthdate' => $birthdate]);
-}
 
+}
 
 function userLogin($mail, $password)
 {
