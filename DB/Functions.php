@@ -41,7 +41,7 @@ function userLogin($mail, $password)
             $personne["Birthdate"] = $r["Birthdate"];
             $personne["Admin"] = $r["Admin"];
             $_SESSION["personne"] = $personne;
-            header('Location: ../Pages/P_UsersList.php');
+            header('Location: ../Pages/P_Accueil.php');
 
         }
     }
