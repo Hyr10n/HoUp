@@ -1,6 +1,7 @@
 <?php
 $root = realpath($_SERVER["DOCUMENT_ROOT"]);
 require_once "../DB/Functions.php";
+include_once  "../Ressources/header.php";
 
 session_start();
 include_once "../Session/sessionFonctions.php";
@@ -9,15 +10,15 @@ Security("A");
 ?>
 
 <h1>Liste des utilisateurs</h1>
-<table>
+<table class="table">
     <tr>
-        <th>Nom</th>
-        <th>Prénom</th>
-        <th>Id</th>
-        <th>Adress</th>
-        <th>Ville</th>
-        <th>Mail</th>
-        <th>Téléphone</th>
+        <th scope="col">Nom</th>
+        <th scope="col">Prénom</th>
+        <th scope="col">Id</th>
+        <th scope="col">Adress</th>
+        <th scope="col">Ville</th>
+        <th scope="col">Mail</th>
+        <th scope="col">Téléphone</th>
 
     </tr>
 
@@ -38,7 +39,7 @@ Security("A");
 
     ?>
 </table>
-<a href="../Pages/P_Accueil.php">Retour</a>
+<a href="../Pages/P_Accueil.php" class="btn btn-outline-primary">Retour</a>
 
 </body>
 </html>

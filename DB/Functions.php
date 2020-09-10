@@ -26,7 +26,6 @@ function userLogin($mail, $password)
         msg("Wrong email or password");
     }
     foreach ($row as $r) {
-        var_dump($r);
         if ($r["Mail"] == $mail AND $r["Password"] == $password) {
             session_start();
             $personne = [];
