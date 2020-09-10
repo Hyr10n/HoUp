@@ -1,12 +1,12 @@
 <?php
-include ("../Ressources/header.php");
+session_start();
+include "../Ressources/header.php";
 include  "../Session/sessionFonctions.php";
 include "../DB/Functions.php";
-session_start();
+Security("C");
 
 $user_Id = $_SESSION["personne"]["Id"];
 $user_nomDossier = $_SESSION["personne"]["nomDossier"];
-Security("C");
 ?>
 
 <h1>Panel client</h1>

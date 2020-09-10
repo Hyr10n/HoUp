@@ -36,7 +36,6 @@ function userLogin($mail, $password)
     }
     foreach ($row as $r) {
         if ($r["Mail"] == $mail AND $r["Password"] == $password) {
-            session_start();
             $personne = [];
             $personne["auth"] = true;
             $personne["Name"] = $r["Name"];

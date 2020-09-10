@@ -71,3 +71,13 @@ background-color: rgba(128,128,128,0.85);
     justify-content: center;
 
 }
+
+.tab3{
+    display: flex;
+    height: 5vh;
+    width: 29vw;
+    box-sizing: border-box;
+    flex-direction: row;
+    background-color: white;
+    justify-content: center;
+}

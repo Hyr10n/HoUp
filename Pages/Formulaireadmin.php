@@ -2,8 +2,9 @@
 include "../Ressources/header.php";
 include  "../Session/sessionFonctions.php";
 session_start();
-$user_id = $_SESSION["personne"]["Id"];
 Security("A");
+$user_id = $_SESSION["personne"]["Id"];
+
 ?>
 
 <div class="tab">

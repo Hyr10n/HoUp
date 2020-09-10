@@ -1,5 +1,8 @@
-<?php include "../Ressources/header.php";
+<?php
+include "../Ressources/header.php";
+include "../Session/sessionFonctions.php";
 session_start();
+Security("C");
 $user_id = $_SESSION["personne"]["Id"];
 ?>
 
@@ -102,7 +105,7 @@ $user_id = $_SESSION["personne"]["Id"];
 
     </select>
     <div class="form-group">
-        <label for="formGroupExampleInput"><div class="bbb">Autres ou spécications k</label>
+        <label for="formGroupExampleInput"><div class="bbb">Autres ou spécications </div></label>
         <input type="text" class="form-control" id="other10"  name="other10" placeholder="Autres (et) ou spécication(s)">
     </div>
 
@@ -179,10 +182,4 @@ $user_id = $_SESSION["personne"]["Id"];
 
     <br>
 
-    <button type="submit" class="btn btn-primary my-1">Submit</button>
-
-
-</form>
-</div>
-</body>
-</html>
+    <button type="submit" class="btn btn-primary my-1">Submi
