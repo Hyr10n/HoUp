@@ -74,3 +74,4 @@ function userDeleteAccount($id)
     $rq = $pdo->prepare("DELETE FROM `users` WHERE Id=:Id ");
     $rq->execute(['Id' => $id]);
 }
+

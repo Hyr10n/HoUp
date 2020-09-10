@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b75267bc-6017-4d8c-9632-21c5aae64432" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB/Config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB/actionFormulaire.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Formulaire.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Formulaireadmin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Panelclient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/TableauFormulaire.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ressources/Formulaire.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DB/Functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/DB/Functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/P_Accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/P_Accueil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ressources/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Ressources/header.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +35,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ifroceanup" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -60,7 +70,7 @@
       <updated>1599551765624</updated>
       <workItem from="1599551766735" duration="14336000" />
       <workItem from="1599635964844" duration="16441000" />
-      <workItem from="1599722074547" duration="9689000" />
+      <workItem from="1599722074547" duration="13259000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,73 @@
+body{ margin:0; pading: 0;background-image: url("https://image.freepik.com/vecteurs-libre/ecologie-concept-environnemental-symbole-terre-feuilles-vertes-autour-villes-aident-monde-idees-ecologiques_29120-92.jpg");}
+h5 {color:  black}
+.bbb{
+    color: black;
+}
+.tab {
+
+    display: flex;
+    width: 80vw;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    alignment: center;
+    margin: auto;
+    margin-top: 100px;
+background-color: rgba(128,128,128,0.85);
+
+}
+
+
+.header{
+    display: flex;
+    height: 25vh;
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    background-color:rgb(220,220,220) ;
+}
+
+.FlexTitre{
+    display: flex;
+    height: 10vh;
+    width: 30vw;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+
+    background-color:rgb(245, 245, 245);
+}
+
+.consommation{
+    display: flex;
+    height: 25vh;
+    width: 30vw;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    background-color:white ;
+}
+
+.tab1{
+    display: flex;
+    height: 25vh;
+    width: 30vw;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.tab2{
+    display: flex;
+    height: 25vh;
+    width: 30vw;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+
+}

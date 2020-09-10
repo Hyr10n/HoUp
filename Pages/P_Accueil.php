@@ -1,6 +1,6 @@
 <?php
 session_start();
-include_once "../Ressources/header.php";
+include "../Ressources/header.php";
 
 if (isset($_POST["userDeconnection"])) {
     session_destroy();
