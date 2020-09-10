@@ -3,7 +3,27 @@
 <h1>Panel client</h1>
 <br>
 <h3>Votre consommation</h3>
-<div class="consommation"></div>
+<div class="consommation">
+    <?php
+
+    require "Config.php";
+    $db= new PDO("mysql:host=".config::SERVEUR.";dbname=".config::BASEDEDONNEES,Config::UTILISATEUR, Config::MOTDEPASSE);
+    $r=$db-> prepare("SELECT consommation FROM users ");
+
+
+    $r->execute();
+
+    $resultats=$r->fetchAll();
+
+    foreach ($resultats as $ligne) {
+        ?>
+        <?php echo $ligne["Id"] ; }
+
+        ?>
+
+
+
+</div>
 
 <div class="tab1">
     <h4>Le rapport de l'expert</h4>
