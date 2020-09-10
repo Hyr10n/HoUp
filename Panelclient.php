@@ -11,7 +11,7 @@ $user_Id=$_SESSION ["personne"]["Id"]
 
     require "Config.php";
     $db= new PDO("mysql:host=".config::SERVEUR.";dbname=".config::BASEDEDONNEES,Config::UTILISATEUR, Config::MOTDEPASSE);
-    $r=$db-> prepare("SELECT consommation FROM users where Id='.$user_Id.'");
+    $r=$db-> prepare("SELECT consommation FROM users where Id='.$user_Id'");
 
 
     $r->execute();
@@ -48,8 +48,28 @@ $user_Id=$_SESSION ["personne"]["Id"]
     <table class="table table table-dark table-responsive">
         <tr>
             <th>Nom de l'appareil </th>
-            <th>Prix</th>
+            <th>Prix/mois | Prix definitif</th>
+            <th>Rôle</th>
+            <th>Donnée</th>
         </tr>
+        <?php
 
+        require "Config.php";
+        $db= new PDO("mysql:host=".config::SERVEUR.";dbname=".config::BASEDEDONNEES,Config::UTILISATEUR, Config::MOTDEPASSE);
+        $r=$db-> prepare("SELECT nom, prix, donne,role FROM appareilnomade where Id='.$user_Id.'");
+
+
+        $r->execute();
+
+        $resultats=$r->fetchAll();
+
+        foreach ($resultats as $ligne){
+        ?>
+        <tr>
+            <td><?php echo $ligne["nom"] ?></td>
+            <td><?php echo $ligne["prix"] ?></td>
+            <td><?php echo $ligne["role"] ?></td>
+            <td><?php echo $ligne["donne"] ?></td>
+            <?php } ?>
     </table>
 </div>
