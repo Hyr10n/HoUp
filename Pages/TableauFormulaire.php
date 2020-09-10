@@ -39,9 +39,11 @@ Security("A");
     </tr>
 
     <?php
+    require "../DB/Config.php";
 
-    global $pdo;
-    $r=$pdo-> prepare("SELECT u.Name, u.FirstName, u.Id, qr.other1, qr.other2,qr.r1,qr.other3,qr.other4,qr.other5,qr.r2,qr.other6,qr.r3,qr.other7,qr.r4,qr.other8,qr.other9,qr.r5,qr.other10,qr.r6,qr.other11,qr.r7,qr.other12,qr.other13,qr.r8,qr.other14,qr.r9,qr.other15 FROM users u join qr on u.Id = qr.id_user");
+    $db= new PDO("mysql:host=".config::SERVEUR.";dbname=".config::BASEDEDONNEES,Config::UTILISATEUR, Config::MOTDEPASSE);
+    $r=$db-> prepare("SELECT u.Name, u.FirstName, u.Id, qr.other1, qr.other2,qr.r1,qr.other3,qr.other4,qr.other5,qr.r2,qr.other6,qr.r3,qr.other7,qr.r4,qr.other8,qr.other9,qr.r5,qr.other10,qr.r6,qr.other11,qr.r7,qr.other12,qr.other13,qr.r8,qr.other14,qr.r9,qr.other15 FROM users u join qr on u.Id = qr.id_user");
+
 
     $r->execute();
 
