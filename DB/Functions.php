@@ -100,13 +100,16 @@ function upload($nomDossier)
 
 function listing($nomDossier){
 
-    $repertoire = "../Rapport/$nomDossier/";
+    $repertoire = "Rapport/$nomDossier/";
+
+
     $fichier = array();
      if (is_dir($repertoire)){
 
         $dir = opendir($repertoire);                              //ouvre le repertoire courant désigné par la variable
-        while(false!==($file = readdir($dir))){                             //on lit tout et on récupere tout les fichiers dans $file
-
+        //var_dump($dir);
+         while(false!==($file = readdir($dir))){                             //on lit tout et on récupere tout les fichiers dans $file
+            //var_dump($file);
             if(!in_array($file, array('.','..'))){            //on eleve le parent et le courant '. et ..'
 
                 $page = $file;                            //sort l'extension du fichier
@@ -135,7 +138,6 @@ function listing($nomDossier){
     natcasesort($fichier);                                    //la fonction natcasesort( ) est la fonction de tri standard sauf qu'elle ignore la casse
 
     foreach($fichier as $value) {
-        echo '<a href="'.rawurlencode($repertoire).'/'.rawurlencode(str_replace ('/', '', $value)).'">'.$value.'</a><br />';
+        echo ' <tr><td><a href="'.$repertoire.''.$value.'">'.$value.'</a><br /></td></tr>';
     }
-
 }

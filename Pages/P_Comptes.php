@@ -54,7 +54,9 @@ if (isset($_POST["userDeleteAccount"])) {
     listing($user_nomDossier);
 
     ?>
+    <a href="../Rapport/<?php echo $user_nomDossier ?>">A</a>
 
+    <a href="../Panelclient.php">az</a>
 
 
     <input type="hidden" value="<?php echo $user_id ?>" name="Id">
